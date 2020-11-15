@@ -3,7 +3,7 @@ resource "digitalocean_droplet" "hdps" {
   image    = "docker-20-04"
   name     = "hdps-${count.index}"
   region   = var.region
-  size     = "s-4vcpu-8gb"
+  size     = "s-6vcpu-16gb"
   tags   = [digitalocean_tag.hdps.id]
   ssh_keys = [digitalocean_ssh_key.default.fingerprint]
 }

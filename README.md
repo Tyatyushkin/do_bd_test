@@ -5,7 +5,10 @@ bigdata learning
 ```bash
 brew install doctl
 ```
-2. create folder terraform for infra
+2. install **do-ansible-inventory** for
+
+...
+
 
 
 
